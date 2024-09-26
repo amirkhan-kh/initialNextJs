@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    padding: 30px 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    font-weight: 800;
+    color: #90E051;
+}
+#ul{
+    display: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ul > li{
+    font-size: 15px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 428px){
+    header{
+        padding: 30px 100px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    nav> #span{
+        display: none;
+    }
+   
+}
+

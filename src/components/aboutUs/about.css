@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px;
+    position: relative;
+}
+.about> .about1{
+    width: 50%;
+}
+.circle{
+    width: 180px;
+    margin-left: 450px;
+    transform: translateY(-90px);
+}
+.rotateImg{
+    width: 100px;
+    height: 67px;
+    position: absolute;
+    top: -40px;
+    left: -43px;
+    transform: rotate(-22deg);
+}
+.infoCard{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 450px;
+    padding: 30px 20px;
+    position: absolute;
+    z-index: 999;
+    left: 250px;
+    top: 380px;
+    background: #fff;
+    border-radius: 7px;
+}
+.infoCard>h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.infoCard>p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.rotateImg{
+    margin-left: 250px;
+    margin-top: 380px;
+    z-index: 999;
+    position: absolute;
+}

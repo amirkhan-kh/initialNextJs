@@ -1,0 +1,77 @@
+.kard{
+    width: 140px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px 4px;
+    text-align: center;
+    transition: 0.3s;
+}
+.kard:hover{
+    border-bottom: 1px solid #90E051;
+    ;
+}
+.kard img{
+    width: 60px;
+    margin-bottom: 12px;
+    height: 60px;
+}
+.kard p{
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.kard h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.tab{
+    padding: 30px 0px 10px 100px;
+    position: relative;
+}
+.bigImgg{
+    z-index: -111;
+    left: -200px;
+    position: absolute;
+    width: 700px;
+}
+.greenMenu{
+    z-index: 333;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.rightMenud{
+    padding: 40px 0;
+
+}
+
+.rightMenud> .cardLeftMenud{
+    display: grid;
+    gap: 35px 6px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
+.rightMenud> .cardLeftMenud>.burgercardd{
+    background: #fff;
+    border-radius: 20px;
+    width: 168px;
+    padding: 17px 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left!important;
+    position: relative;
+    
+}
+.cardLeftMenud>.burgercardd> img{
+    position: absolute;
+    top: -45px;
+    width: 130px;
+    height: 120px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.5));
+}
+
+

@@ -1,0 +1,35 @@
+.aboutTop{
+    display: flex;
+    align-items: center;
+    padding: 120px 0px;
+}
+.aboutLeft{
+    padding-top: 80px;
+}
+.aboutLeft> .green{
+    position: relative;
+    background: #90E051;
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+}
+#shadowImg{
+    filter: drop-shadow(0px 7px 4px  rgba(0, 0, 0, 0.7));
+}
+.aboutRight{
+    width: 80%;
+    padding-top: 130px;
+}
+.greenSmall{
+    background: #90E051;
+    height: 200px;
+    border-radius: 10px;
+    padding: 30px 50px 50px 220px;
+    color: white;
+}
+.greenSmall> h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
