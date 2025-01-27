@@ -13,6 +13,8 @@
 /.next/
 /out/
 
+# locally
+./src/public/images/
 # production
 /build
 
